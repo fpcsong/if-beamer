@@ -46,9 +46,11 @@
 % --------------------------------------------------- %
 %%% From http://latexcolor.com/
 
+\definecolor{topbar}{rgb}{0.1, 0.1, 0.54}
 % Blue
 \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
 \definecolor{aliceblue}{rgb}{0.94, 0.97, 1.0}
+
 
 % Green
 \definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
@@ -97,15 +99,21 @@
 \colorlet{chipColor}{mainColor1}
 
 % Sections colors
-\colorlet{sectionColor}{black}
+\colorlet{sectionColor}{topbar}
+% \colorlet{sectionColor}{black}
 \colorlet{subsectionColor}{ashgrey}
 
 % Footline colors
-\colorlet{authorFootlineColor}{black}
-\colorlet{instituteFootlineColor}{black}
+\colorlet{authorFootlineColor}{topbar}
+\colorlet{instituteFootlineColor}{topbar}
 \colorlet{titleFootlineColor}{ashgrey}
-\colorlet{pageFootlineColor}{black}
-\colorlet{dateFootlineColor}{black}
+\colorlet{pageFootlineColor}{topbar}
+\colorlet{dateFootlineColor}{topbar}
+% \colorlet{authorFootlineColor}{black}
+% \colorlet{instituteFootlineColor}{black}
+% \colorlet{titleFootlineColor}{ashgrey}
+% \colorlet{pageFootlineColor}{black}
+% \colorlet{dateFootlineColor}{black}
 
 % Block colors
 \colorlet{normalTitleBlockColor}{mainColor1}
@@ -152,7 +160,7 @@
 % http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf
 
 \usecolortheme[named=mainColor1]{structure}
-\useinnertheme{rectangles}
+\useinnertheme{rounded}
 \useoutertheme[subsection=false]{miniframes}
 \setbeamertemplate{navigation symbols}{}
 
@@ -355,7 +363,7 @@
 % --------------------------------------------------- %
 %                        Blocks                       %
 % --------------------------------------------------- %
-\setbeamertemplate{blocks}[rectangle]
+\setbeamertemplate{block}[rounded rectangle]
 
 \setbeamercolor*{block title}{
   fg=blockTitleTextColor,
