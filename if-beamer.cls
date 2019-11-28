@@ -17,7 +17,7 @@
 \ProvidesClass{if-beamer}[10/09/2018, v1.0.1]
 
 \PassOptionsToPackage{svgnames}{xcolor}
-\LoadClass[compress, 8pt]{beamer}
+\LoadClass[compress, 10pt]{beamer}
 
 % --------------------------------------------------- %
 %                       Packages  	                  %
