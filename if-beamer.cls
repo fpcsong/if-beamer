@@ -23,6 +23,8 @@
 %                       Packages  	                  %
 % --------------------------------------------------- %
 \usepackage[brazilian, english]{babel}
+\usepackage[UTF8]{ctex}
+\usepackage{tcolorbox}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{helvet}
