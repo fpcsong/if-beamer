@@ -42,6 +42,7 @@
 \tcbuselibrary{skins}
 \usepackage{ragged2e}
 \usepackage{courier}
+\usefonttheme[onlymath]{serif}
 
 % --------------------------------------------------- %
 %                   Basic colors	                  %
